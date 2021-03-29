@@ -1,0 +1,12 @@
+.link {
+  color: white;
+}
+.link:hover {
+  text-decoration: none;
+  color: orange;
+  cursor: pointer;
+}
+.notesEdit {
+  border-style: solid;
+  border-color: black;
+}

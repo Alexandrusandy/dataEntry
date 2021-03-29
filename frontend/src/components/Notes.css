@@ -1,0 +1,13 @@
+.noteStyle {
+  border-style: groove;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+body {
+  background: linear-gradient(to right, rgb(253, 180, 234), rgb(240, 228, 122));
+}
