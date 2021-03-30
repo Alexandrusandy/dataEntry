@@ -29,7 +29,7 @@ const CreateNotes = () => {
       system: input.system,
     };
 
-    axios.post('http://localhost:3000/create', newNote);
+    axios.post('http://localhost:3001/create', newNote);
   }
 
   return (

@@ -14,7 +14,11 @@ router.route('/create').post((req, res) => {
     gender,
     system,
   });
+
   newNote.save();
+});
+router.get('/', (req, res) => {
+  res.send('server is working');
 });
 
 //-----------Here is the backend where you can see recived data

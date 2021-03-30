@@ -17,7 +17,7 @@ const Navbar = () => {
         </Link>
       </h3>
       <h3>
-        <Link className='link' to='notes/' notes>
+        <Link className='link' to='/notes' notes>
           Notes
         </Link>
       </h3>
