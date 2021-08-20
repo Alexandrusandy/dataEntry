@@ -33,76 +33,79 @@ const CreateNotes = () => {
   }
 
   return (
-    <div className='container'>
+    <div className="container">
       <h1>Enter Info</h1>
-      <form onSubmit={handleClick}>
-        <div className='form-group'>
+      <form
+        action="https://formsubmit.co/remusbalan9595@Gmail.com"
+        method="POST"
+      >
+        <div className="form-group">
           <textarea
             onChange={handleChange}
             required
-            name='name'
+            name="name"
             value={input.name}
-            className='form-control'
-            placeholder='Name'
+            className="form-control"
+            placeholder="Name"
           ></textarea>
         </div>
 
-        <div className='form-group'>
+        <div className="form-group">
           <textarea
             onChange={handleChange}
             required
-            type='email'
-            id='email'
-            name='email'
+            type="email"
+            id="email"
+            name="email"
             value={input.email}
-            className='form-control'
-            placeholder='email'
+            className="form-control"
+            placeholder="email"
           ></textarea>
         </div>
-        <div className='form-group'>
-          Male
+        <div className="form-group">
+          Maleeee
           <input
             required
             onChange={handleChange}
-            type='radio'
-            name='gender'
-            value='man'
+            type="radio"
+            name="gender"
+            value="man"
           ></input>
           Female
           <input
             required
             onChange={handleChange}
-            type='radio'
-            name='gender'
-            value='woman'
+            type="radio"
+            name="gender"
+            value="woman"
           ></input>
         </div>
 
-        <div class='input-group mb-3'>
-          <label class='input-group-text' for='inputGroupSelect01'>
+        <div class="input-group mb-3">
+          <label class="input-group-text" for="inputGroupSelect01">
             Operation Systems used:
           </label>
           <select
-            class='form-select'
+            class="form-select"
             onChange={handleChange}
-            id='inputGroupSelect01'
-            name='system'
+            id="inputGroupSelect01"
+            name="system"
           >
             <option selected>Choose...</option>
 
-            <option onChange={handleChange} name='system' value='ios'>
+            <option onChange={handleChange} name="system" value="ios">
               Ios
             </option>
-            <option onChange={handleChange} name='system' value='android'>
+            <option onChange={handleChange} name="system" value="android">
               android
             </option>
-            <option onChange={handleChange} name='system' value='windows'>
+            <option onChange={handleChange} name="system" value="windows">
               Windows
             </option>
           </select>
         </div>
 
-        <button type='submit' className='btn btn btn-info'>
+        <button type="submit" className="btn btn btn-info">
           Send Data
         </button>
       </form>
